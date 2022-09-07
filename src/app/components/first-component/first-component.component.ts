@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ComponentFactoryResolver, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-first-component',
@@ -6,6 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./first-component.component.css']
 })
 export class FirstComponentComponent implements OnInit {
+
+  name: string  = "Álisson";
+  age: number = 34;
+  job = "programador";
+  hobbies = ['correr', 'estudar', 'jogar'];
+  car = {
+    name: 'Polo',
+    year: 2019,
+  };
 
   constructor() { }
 
