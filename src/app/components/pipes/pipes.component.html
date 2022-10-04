@@ -1,6 +1,11 @@
 <div class="class">
     <h2>{{ "Tem coisa aqui" | uppercase }}</h2>
-    <h2>{{ "Tem coisa aqui" | lowercase }}</h2>
     <h2>{{ someText | titlecase }}</h2>
     <h2>{{ today | date: "fullDate" }}</h2>
+    <h2>{{ numero | currency }}</h2>
+    <h2>{{ pi | number }}</h2>
+    <h2>{{ pi | number:'4.1-5' }}</h2>
+    <h2>{{ 3.6 | number: '1.0-0' }}</h2>
+    <h2>{{ a | percent }}</h2>
+    <h2>{{ b | percent:'4.3-5' }}</h2>
 </div>

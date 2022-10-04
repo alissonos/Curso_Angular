@@ -6,13 +6,19 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./pipes.component.css']
 })
 export class PipesComponent implements OnInit {
-  someText = 'TESTANDO O PIPER OPERATOR'
+  someText = 'TESTANDO O PIPER OPERATOR';
 
   today = new Date();
 
+  numero: number = 1200;
+
+  pi: number = 3.1415926535;
+
+  a: number = 0.259;
+  b: number = 1.3495;
+
   constructor() { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 
 }
