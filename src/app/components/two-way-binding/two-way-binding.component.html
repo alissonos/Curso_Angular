@@ -1,0 +1,19 @@
+<div class="class">
+    <h2>Two Way Binding</h2>
+    <form>
+        <input 
+        type="text" 
+        [(ngModel)]="digiteNome"
+        name="name"
+        placeholder="Digite o seu nome">
+        <input type="submit" value="enviar">
+    </form>
+    <p>O nome é: {{ digiteNome }}</p>
+    <br>
+    <h2>Treinando</h2>
+    <form>
+        <input type="text" [(ngModel)]="nome" name="qualquer" placeholder="Digite seu nome">
+        <input type="submit" value="enviar">
+    </form>
+    <p>O nome é {{ nome }}</p>
+</div>
